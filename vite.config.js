@@ -6,13 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: "/",
   // vite.config.js
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks: undefined, // Allow Vite to manage chunks
-      },
-    },
-  },
+
 
   // optimizeDeps: {
   //   include: ["axios"], // Include axios in the optimized dependencies
